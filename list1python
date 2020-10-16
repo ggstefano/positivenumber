@@ -1,0 +1,13 @@
+list=[]
+list1=[]
+n=1
+print("Enter your numbers, Put 0 to break- ")
+while n>0:
+    x=int(input())
+    if x==0:
+        break
+    elif x>0:
+        list1.append(x)
+    list.append(x)
+print("Your input- ",list)
+print("Positive Numbers are",list1)
